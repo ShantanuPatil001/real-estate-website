@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/admin/static/css/main.62c7d163.chunk.css",
+    "main.js": "/admin/static/js/main.e4ed47f2.chunk.js",
+    "main.js.map": "/admin/static/js/main.e4ed47f2.chunk.js.map",
+    "runtime-main.js": "/admin/static/js/runtime-main.e69af7ca.js",
+    "runtime-main.js.map": "/admin/static/js/runtime-main.e69af7ca.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/admin/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.c04c27d9.chunk.js": "/admin/static/js/2.c04c27d9.chunk.js",
+    "static/js/2.c04c27d9.chunk.js.map": "/admin/static/js/2.c04c27d9.chunk.js.map",
+    "index.html": "/admin/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/admin/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.62c7d163.chunk.css.map": "/admin/static/css/main.62c7d163.chunk.css.map",
+    "static/js/2.c04c27d9.chunk.js.LICENSE.txt": "/admin/static/js/2.c04c27d9.chunk.js.LICENSE.txt",
+    "static/media/check-circle.af88e0da.svg": "/admin/static/media/check-circle.af88e0da.svg",
+    "static/media/dash-circle.87e01443.svg": "/admin/static/media/dash-circle.87e01443.svg",
+    "static/media/logo.756af896.svg": "/admin/static/media/logo.756af896.svg",
+    "static/media/pin.223f1af6.svg": "/admin/static/media/pin.223f1af6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e69af7ca.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.c04c27d9.chunk.js",
+    "static/css/main.62c7d163.chunk.css",
+    "static/js/main.e4ed47f2.chunk.js"
+  ]
+}

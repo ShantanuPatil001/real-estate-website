@@ -1,0 +1,73 @@
+.movie-ads {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  z-index: 99999;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-ad {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 40vw;
+}
+.poster {
+  position: relative;
+  height: 70vh;
+  width: 40vw;
+  border: none;
+}
+
+.close-poster {
+  position: absolute;
+  height: 12vh;
+  width: 12vw;
+  color: white;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: white 0px 0px 6px;
+}
+
+@media screen and (max-width: 700px) {
+  .movie-ads {
+    position: fixed;
+    z-index: 99999;
+  }
+  .movie-ad {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .close-poster {
+    position: absolute;
+    height: 10vh;
+    width: 10vw;
+    color: white;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    margin: 3vh;
+    background-color: black;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: white 0px 0px 6px;
+  }
+  .poster {
+    height: 50vh;
+    width: 80vw;
+  }
+}

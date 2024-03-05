@@ -1,0 +1,303 @@
+.info-page {
+  position: relative;
+  font-family: "Montserrat";
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+section {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+
+/* Section 1 */
+.sectionA {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: #000;
+}
+
+.sectionA h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin: 18vh 0;
+}
+
+.goto {
+  width: 250px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 24px;
+  z-index: 10;
+  font-size: 1.2em;
+  text-align: center;
+  transform: scale(0.9);
+  transform-origin: center;
+  transition: transform 0.5s ease;
+  color: #fff;
+}
+
+.goto:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scaleX(1);
+  transform-origin: center;
+  transition: transform 0.5s ease;
+}
+
+.goto:focus {
+  background-color: #000;
+}
+
+/* Section 2 About Us */
+.about-section {
+  flex-flow: column;
+  justify-content: left;
+  background-color: #fff;
+  padding: 15vh 10vw;
+  height: max-content;
+}
+
+.about-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 6vh 0;
+  text-align: left;
+}
+
+.about-logo {
+  position: absolute;
+  right: 0;
+  width: 40vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 15vh 10vw;
+}
+
+/* Section 3  About Team*/
+.team-section {
+  position: relative;
+  flex-flow: column;
+  justify-content: flex-end;
+  background-color: #000;
+  height: max-content;
+  z-index: 1;
+  padding-top: 60vh;
+}
+
+.team-section h1 {
+  text-align: center;
+  margin: 10vh 0;
+  color: #1b9324;
+  font-size: 4rem;
+}
+
+.pro {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.pro-pic {
+  position: relative;
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+  z-index: 1;
+}
+
+.pro-pic img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.pro-info {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background: rgba(90, 90, 90, 0.5);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Section team info */
+.team-info {
+  position: relative;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+  z-index: 0;
+}
+
+.quote {
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  margin: 50px;
+}
+
+.team-info .team-text {
+  font-size: 1.2em;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+/* Contact  */
+
+.contact-section {
+  position: relative;
+  flex-flow: column;
+  justify-content: left;
+  background-color: #fff;
+  height: max-content;
+  padding: 80px 10vw;
+}
+
+.contact-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1b9324;
+  width: 100%;
+  height: 8px;
+  z-index: 10;
+}
+
+.contact-head h1 {
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+.contact-head h2 {
+  font-size: 4.5em;
+  font-weight: bold;
+  color: #d0d0d0;
+}
+
+.contact-body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 10vh;
+}
+
+.contact-box {
+  padding-top: 4vh;
+  text-align: left;
+  width: 300px;
+}
+
+.contact-box h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.contact-box a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* iPad */
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .team-section {
+    padding-top: 60vh;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+  .bg-image {
+    object-fit: cover;
+  }
+  .sectionA h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .about-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+    width: 100%;
+    margin: 6vh 0;
+    text-align: left;
+  }
+
+  .about-logo {
+    position: relative;
+    right: 0;
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 8vh 8vw;
+  }
+
+  .team-section {
+    padding-bottom: 10vh;
+  }
+
+  .team-section h1 {
+    font-size: 3rem;
+  }
+
+  .pro {
+    justify-content: center;
+  }
+  .pro-pic {
+    width: 140px;
+    height: 240px;
+  }
+  .pro-info {
+    height: 120px;
+  }
+
+  .team-info {
+    height: max-content;
+  }
+  .team-info .team-text {
+    font-size: 1.2em;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+  }
+  .contact-head h1 {
+    font-size: 3em;
+  }
+  .contact-head h2 {
+    font-size: 3em;
+  }
+}

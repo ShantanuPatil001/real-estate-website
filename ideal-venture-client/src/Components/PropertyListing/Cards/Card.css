@@ -1,0 +1,312 @@
+.Card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  height: 50vh;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 16px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.thumbnail {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: max-height;
+}
+
+.thumbnail img {
+  position: relative;
+  height: 50vh;
+  width: 30vw;
+  object-fit: cover;
+  border-radius: 16px 0 0 16px;
+  cursor: pointer;
+}
+
+.data {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 1 60%;
+  padding: 10px 25px 0;
+  justify-content: center;
+}
+
+.info-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.row1 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.row2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.title {
+  margin: auto 0;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.sub-text {
+  margin: auto 5px;
+}
+
+.price {
+  color: #E25214;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.location {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 5px 0;
+}
+
+.location .sub-text{
+  color: #E25214
+}
+
+.split-sub-data-more {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  flex: 1 1;
+}
+
+.sub-data {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  flex: 1 1 65%;
+}
+
+.tags {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 18px 0;
+}
+
+.tag-box {
+  margin: 4px 4px;
+  border-radius: 8px;
+  background-color: rgba(0, 128, 0, 0.16);
+  padding: 7px 14px;
+}
+
+.tag-text {
+  margin: auto 1px;
+  color: green;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  flex: 0 2;
+}
+
+.service-box {
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: 25px;
+  padding: 5px;
+}
+
+.service-box .sub-text {
+  font-size: 16px;
+  width: 15vw;
+}
+
+.ico-tick {
+  width: 25px;
+  padding: 4px;
+}
+
+.more-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 30%;
+  padding-left: 3px;
+}
+
+.more-btn {
+  margin: 20px 0;
+  width: 70%;
+  border: none;
+  background-color: rgb(0, 128, 0);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.more-btn:hover {
+  background-color: rgb(0, 128, 0, 0.5);
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .Card {
+    --h : max-content + 10vh;
+    height: max-content;
+  }
+  .title{
+    font-size: 2.5em;
+  }
+  .row2 {
+    margin: 10px 0;
+    flex-flow: column-reverse wrap;
+    justify-content: space-around;
+  }
+
+  .row2 .sub-text {
+    margin: 6px;
+  }
+
+  .services{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Card {
+    height: max-content;
+    width: 90vw;
+    flex-flow: column;
+    position: relative;
+    margin: 18px auto;
+  }
+
+  .thumbnail img {
+    height: 50vh;
+    width: 90vw;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .data {
+    padding: 10px 12px;
+    flex: 1 1 80%;
+  }
+
+  .info-box {
+    flex-flow: column;
+  }
+  .row2 {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  .row2 .sub-text {
+    margin: 3px;
+  }
+
+  .title {
+    margin: auto 0;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  .sub-text {
+    font-size: 10px;
+  }
+
+  .price {
+    color: red;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .location {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 5px 0;
+  }
+
+  .location img {
+    margin: 0;
+    padding: 1.5px 0;
+  }
+
+  .location .sub-text {
+    font-size: 12px;
+  }
+
+  .split-sub-data-more {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    flex: 1 1;
+  }
+
+  .sub-data {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    flex: 1 1 65%;
+  }
+
+  .tags {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 5px 0;
+  }
+
+  .tag-box {
+    margin: 3px 0px 3px 3px;
+    border-radius: 8px;
+    background-color: rgba(0, 128, 0, 0.16);
+    padding: 7px 14px;
+  }
+
+  .tag-text {
+    margin: auto 1px;
+    color: green;
+    font-weight: 500;
+    font-size: 9px;
+  }
+
+  .services {
+    display: none;
+  }
+
+  .more-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1 1 30%;
+    margin: 10px 0;
+  }
+
+  .more-btn {
+    margin: 0;
+    width: 30%;
+    border: none;
+    background-color: rgb(0, 128, 0);
+    font-size: 12px;
+  }
+
+  .more-btn:focus {
+    background-color: rgb(0, 128, 0, 0.5);
+  }
+}

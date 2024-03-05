@@ -1,0 +1,28 @@
+
+#logo{
+    margin: 10vh auto;
+    display: flex;
+    height: 12vh;
+}
+#LoginCard{
+    width: 30vw;
+    height: auto;
+    margin: 10vh auto;
+    padding: 2em;
+    border-radius: 18px;
+    background-color: #fff;
+    color: #000;
+}
+
+
+@media (max-width: 768px){
+    #LoginCard{
+        width: auto;
+        height: auto;
+        margin: 2vh 18px;
+        padding: 2em;
+        border-radius: 18px;
+        background-color: #000;
+        color: #fff;
+    }
+}

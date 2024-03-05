@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ideal-venture/static/css/main.e83c75a0.chunk.css",
+    "main.js": "/ideal-venture/static/js/main.7883e482.chunk.js",
+    "main.js.map": "/ideal-venture/static/js/main.7883e482.chunk.js.map",
+    "runtime-main.js": "/ideal-venture/static/js/runtime-main.9450aec9.js",
+    "runtime-main.js.map": "/ideal-venture/static/js/runtime-main.9450aec9.js.map",
+    "static/css/2.e4e35064.chunk.css": "/ideal-venture/static/css/2.e4e35064.chunk.css",
+    "static/js/2.f252a621.chunk.js": "/ideal-venture/static/js/2.f252a621.chunk.js",
+    "static/js/2.f252a621.chunk.js.map": "/ideal-venture/static/js/2.f252a621.chunk.js.map",
+    "index.html": "/ideal-venture/index.html",
+    "static/css/2.e4e35064.chunk.css.map": "/ideal-venture/static/css/2.e4e35064.chunk.css.map",
+    "static/css/main.e83c75a0.chunk.css.map": "/ideal-venture/static/css/main.e83c75a0.chunk.css.map",
+    "static/js/2.f252a621.chunk.js.LICENSE.txt": "/ideal-venture/static/js/2.f252a621.chunk.js.LICENSE.txt",
+    "static/media/a.c488f668.png": "/ideal-venture/static/media/a.c488f668.png",
+    "static/media/check-circle.27b2b9a7.svg": "/ideal-venture/static/media/check-circle.27b2b9a7.svg",
+    "static/media/d.077e8863.png": "/ideal-venture/static/media/d.077e8863.png",
+    "static/media/dash-circle.407a6a8a.svg": "/ideal-venture/static/media/dash-circle.407a6a8a.svg",
+    "static/media/logoT.4cd55437.png": "/ideal-venture/static/media/logoT.4cd55437.png",
+    "static/media/pin.223f1af6.svg": "/ideal-venture/static/media/pin.223f1af6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9450aec9.js",
+    "static/css/2.e4e35064.chunk.css",
+    "static/js/2.f252a621.chunk.js",
+    "static/css/main.e83c75a0.chunk.css",
+    "static/js/main.7883e482.chunk.js"
+  ]
+}

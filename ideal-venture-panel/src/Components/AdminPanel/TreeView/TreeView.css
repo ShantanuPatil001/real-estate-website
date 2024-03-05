@@ -1,0 +1,45 @@
+.tree-view-body{
+    width: 100%;
+}
+
+.text-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0;
+}
+
+.list-item{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+
+.item-text{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item-action-key{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list-btn{
+    margin: 0 4px;
+}
+
+.add-btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0;
+}

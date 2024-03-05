@@ -1,0 +1,70 @@
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 3vh;
+  background-color: #000;
+  flex-basis: 1 1;
+}
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: #000;
+}
+
+.acc-logo{
+  float: right;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+/* Views */
+.views {
+  display: flex;
+  flex-flow: row;
+}
+
+/* TreeView CSS Section 1 */
+.tree-view {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 20vw;
+  overflow-y: scroll;
+  height: 85vh;
+  margin: 1.5vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.pre-view {
+  display: flex;
+  flex-flow: column;
+  background-color: #fff;
+  width: 80vw;
+  height: 85vh;
+  position: relative;
+  overflow-y: scroll;
+  padding: 1vh;
+  margin: 1.5vh;
+  border-radius: 12px;
+}
+
+/* ActionView CSS Section 2 */
+.action-view {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 40vw;
+  height: 85vh;
+  margin: 1.5vh;
+  overflow-y: scroll;
+}
