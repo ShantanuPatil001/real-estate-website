@@ -1,0 +1,42 @@
+version: "3"
+
+
+services: 
+  ideal-venture-client: 
+    build: ./ideal-venture-client
+    container_name: client-ui
+    ports: 
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+    depends_on:
+      - ideal-venture-server
+    networks:
+      - ideal-venture-network
+
+  ideal-venture-panel: 
+    build: ./ideal-venture-panel
+    container_name: panel-base
+    restart: always
+    ports: 
+      - "3001:3001"
+    stdin_open: true
+    tty: true
+    depends_on:
+      - ideal-venture-server
+    networks:
+      - ideal-venture-network
+
+
+  ideal-venture-server: 
+    build: ./ideal-venture-server
+    container_name: server-base
+    restart: always
+    ports: 
+      - "8080:8080"
+    networks:
+      - ideal-venture-network
+
+networks:
+  ideal-venture-network:
+    driver: bridge
