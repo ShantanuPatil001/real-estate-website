@@ -5,6 +5,8 @@ services:
   ideal-venture-client: 
     build: ./ideal-venture-client
     container_name: client-ui
+    env_file:
+      - ./ideal-venture-client/.env
     ports: 
       - "3000:3000"
     stdin_open: true
@@ -17,6 +19,8 @@ services:
   ideal-venture-panel: 
     build: ./ideal-venture-panel
     container_name: panel-base
+    env_file:
+      - ./ideal-venture-panel/.env
     restart: always
     ports: 
       - "3001:3001"
@@ -28,9 +32,12 @@ services:
       - ideal-venture-network
 
 
+
   ideal-venture-server: 
     build: ./ideal-venture-server
     container_name: server-base
+    env_file:
+      - ./ideal-venture-server/.env
     restart: always
     ports: 
       - "8080:8080"
