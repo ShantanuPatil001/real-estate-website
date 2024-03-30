@@ -8,6 +8,9 @@ var logger = require("morgan");
 const sessions = require("express-session");
 const multer = require("multer");
 
+// Testing processes
+console.log(process.env);
+
 const port = process.env.PORT || 8080;
 
 const storage = multer.memoryStorage();

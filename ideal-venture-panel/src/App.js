@@ -18,10 +18,10 @@ import FormFile from "./Components/AdminPanel/AddProperty/FormFile";
 
 function App() {
   const app = initializeApp(firebaseConfig);
-  // initializeAppCheck(app, {
-  //   provider: new ReCaptchaV3Provider("shantanupatil"),
-  //   isTokenAutoRefreshEnabled: true,
-  // });
+  initializeAppCheck(app, {
+    provider: new ReCaptchaV3Provider("shantanupatil"),
+    isTokenAutoRefreshEnabled: true,
+  });
 
   const [isLoggedIn, setsLoggedIn] = useState(sessionStorage.getItem("status"));
 
